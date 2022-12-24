@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>        
+    <meta charset="UTF-8">
+    <title>Contato - Barbearia Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo-branco.png" alt="Logo da Barbearia Alura"></h1>
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="http://Nilistty.com">N</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <br>
+
+        <form action="">
+
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input required class="input-padrao" type="text" id="nomesobrenome">
+
+            <label for="email">E-mail</label>
+            <input required  class="input-padrao"  type="email" name="" id="email" placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input required class="input-padrao"  type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea required class="input-padrao" name="" id="mensagem" cols="70" rows="10"></textarea>
+
+            <div>
+
+                <p>Como prefere o nosso contato?</p><br>
+
+                <label for="radioemail"><input name="contato" type="radio" value="email" id="radioemail">  Email</label>
+
+                <label for="radiotelefone"><input name="contato" type="radio" value="telefone" id="radiotelefone">  Telefone</label>
+
+                <label  for="radiowhatsapp"><input checked name="contato" type="radio" value="whatsapp" id="radiowhatsapp">  Whatsapp</label>
+            </div>
+
+            <div>
+                
+                <p>Qual horário prefere ser atendido?</p>
+
+                <select name="" id="">
+
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+
+                </select>
+
+            </div>
+            
+            <label class="checkbox" for=""><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            
+
+            <input class="enviar" type="submit" value="Enviar Formulário">
+
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+
+        <img src="img/logo-branco.png" alt="Logo da Barbearia Alura">
+        <p>Copyright Barbearia Alura - 2019 - Nilistty/Nilisty</p>
+
+    </footer>
+    
+</body>
+
+</html>
